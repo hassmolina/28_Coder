@@ -1,0 +1,70 @@
+/* GENERAL */
+hr {
+  width  : 5%;
+  border : 3px solid orange;
+}
+
+.text-white {
+  color : white;
+}
+
+button {
+  padding       : 1.5% 2%;
+  border        : none;
+  border-radius : 25px;
+}
+
+span {
+  color     : #e3540e;
+  font-size : 300%;
+}
+
+/* HEADER */
+
+#fondoheader {
+  background : url(../img/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+.margenhead{
+  margin-top:10%;
+}
+
+.collapse{
+  float:right;
+}
+/* SECCION 1 */
+
+#fondoorange {
+  background-color : #e3540e;
+}
+
+/* SECCION IMAGENES */
+
+.widthfotos {
+  margin : 0 !important;
+}
+
+.imgpad {
+  padding : 0 !important;
+}
+
+figcaption {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    padding:20% 42%;
+    background-color: yellow;
+    opacity:.7;
+}
+
+/* SECCION GRIS */
+
+#fondogris {
+  background-color : #42443e;
+}
